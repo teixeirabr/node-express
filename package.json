@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "nucampsiteserver",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^2.6.9",
     "express": "^4.17.3",
+    "http-errors": "^1.6.3",
+    "jade": "^1.11.0",
+    "mongoose": "^5.10.9",
+    "mongoose-currency": "^0.2.0",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
